@@ -24,3 +24,7 @@ adafruit-ampy:这个主要是用来给micropython固件上传python程序到可�
 python main.py
 ```
 就可以运行项目了
+
+### 使用pip安装
+
+pip install fengmm521_blecam
