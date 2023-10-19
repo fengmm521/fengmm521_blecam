@@ -13,4 +13,4 @@ python "changeversion.py"
 echo "打包项目..."
 python setup.py sdist
 echo "开始上传..."
-~/Library/Python/2.7/bin/twine upload dist/*.tar.gz
+twine upload dist/*.tar.gz
