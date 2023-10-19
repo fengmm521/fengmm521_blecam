@@ -1,0 +1,4 @@
+opencv-python (>=4.7.0)
+pyserial
+esptool
+adafruit-ampy
