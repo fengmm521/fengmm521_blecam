@@ -9,7 +9,6 @@ if platform.system() == "Darwin":
     from fengmm521_blecam._mac import capimg
     from fengmm521_blecam._mac import camUtil
     from fengmm521_blecam._mac import httpUtil
-    from fengmm521_blecam._mac import queueUtil
     from fengmm521_blecam._mac import serialUtil
     from fengmm521_blecam._mac import serialFind
 else:
@@ -18,7 +17,6 @@ else:
     from fengmm521_blecam._windows import capimg
     from fengmm521_blecam._windows import camUtil
     from fengmm521_blecam._windows import httpUtil
-    from fengmm521_blecam._windows import queueUtil
     from fengmm521_blecam._windows import serialUtil
     from fengmm521_blecam._windows import serialFind
 __all__ = []
